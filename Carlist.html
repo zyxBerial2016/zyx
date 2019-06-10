@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>购物车</title>
+  <link rel="stylesheet" href="./css/ty-reset.css">
+  <link rel="stylesheet" href="./css/Carlist.css">
+  <script src="./js/jquery.js"></script>
+  <script src="./js/car.js?v=3"></script>
+  <script src="./js/cars.js?v=2"></script>
+</head>
+<body>
+    <div class="top_box">
+        <div class="top_cont">
+            <div class="top_login_r top_red">
+            </div>
+            <ul class="top_login top_red" >
+                <li class="top_loginbtn" id="LoginID" >
+                    <a href="javascript:void(0);" class="login">登录</a>
+                </li>
+            </ul>
+            <ul class="top_login top_red">
+                <li style="border-left:none;"><a href="./lenovo.html">返回首页</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="calist_top">
+        <div class="container">
+            <img src="./images/img/gwc.jpg" alt="" class="gwcimg">
+            <img src="./images/img/gwcjd.jpg" alt="" class="gwcjd">
+        </div>
+    </div>
+    <div id="calist_main">
+        <div class="container">
+            <div class="calist_table" id="alist_body">
+                <table cellpadding="0" cellspacing="0" class="table ">
+                    <tbody>
+                        <tr>
+                            <th colspan="3" width="462">商品</th>
+                            <th width ="163">规格</th>
+                            <th width="152">单价</th>
+                            <th width="152">数量</th>
+                            <th width="152">金额</th>
+                            <th width="117">操作</th>
+                        </tr>
+                    </tbody>
+                </table>
+                <table  cellpadding="0" cellspacing="0">
+                    <tbody id="tbody" class="calist_tbody">
+                        
+                    </tbody>
+                </table>
+            </div>
+            <div class="checkout">
+                <div class="ct_all">
+                    <div class="ct_yes">
+                        <a href="javascript" class="ct_link"></a>
+                        <span >全选</span>
+                    </div>
+                    <a href="javascript" id="del_list" class="ct_txt">删除选中的商品</a>
+                </div>
+                <ul class="ct_price">
+                    <li class="ct_li"><span>商品总价:&nbsp;</span><span id="totalPrice">0.00</span></li>
+                    <li class="ct_li"><span>优惠节省:&nbsp;</span><span id="onSale">0.00</span></li>
+                    <li class="ct_li"><span>合计：&nbsp;</span><span id="totalPrice_All" style="color:rgb(255,0, 0)"></span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+    <!--服务列表-->
+    <div class="ns_Services-list ns_fixClear" id="Services-list">
+        <div class="ns_w">
+        <img width="1200" height="83" class="lazy_img" src="./images/img/lazy_img.jpg">
+        </div>
+    </div>
+    <!--页脚-->
+    <div id="footer">
+        <div class="ns_p2">
+            <div class="ns_w ns_fixClear">
+                <dl>
+                    <dt> <a>购物指南 </a></dt>
+                    <dd> 
+                        <a href="">服务商信息</a> 
+                        <a  href="">购买流程</a> 
+                        <a  href="">注册登录</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt> <a>配送方式</a></dt>
+                    <dd> <a  href="">配送方式</a> <a  href="">物流查询</a></dd>
+                </dl>
+                <dl>
+                    <dt> <a>支付方式  </a></dt>
+                    <dd> <a  href="">支付方式</a> <a  href="">支付问题</a><a  href="">分期支付</a></dd>
+                </dl>
+                <dl>
+                    <dt> <a>订单信息  </a></dt>
+                    <dd> <a  href="">订单信息</a> <a  href="">其它频道订单发票</a><a  href="">手机频道订单发票</a> </dd>
+                </dl>
+                <dl>
+                    <dt> <a>售后服务  </a></dt>
+                    <dd> <a  href="">Lenovo频道商品售后</a><a  href="">手机频道商品售后7天</a> <a  href="">无理由退换货说明</a></dd>
+            </div>
+        </div>
+    </div>
+    
+    <div class="ns_box">
+        <div class="ns_p4 ns_fixClear">
+            <div class="ns_w">
+                <div class="ns_footer_line">
+                    <a style="display: inline-block;" href="" title="关于联想" >
+                        关于联想
+                    </a><span>|</span>
+                    <a href="" title="联系我们" >
+                        联系我们
+                    </a><span>|</span>
+                    <a href="" title="新闻中心" >
+                        新闻中心
+                    </a><span>|</span>
+                    <a href="" title="工作机会" >
+                        工作机会
+                    </a><span>|</span>
+                    <a href="" style="display: none;" title="聚享汇会员专享" >
+                        聚享汇会员专享
+                    </a>
+                    <a href="" style="display: none;" title="联想社区" >
+                        联想社区
+                    </a>
+    
+                    <a href="" title="联想官网热搜榜">
+                        联想官网热搜榜
+                    </a><span>|</span>
+                    <a href="" title="分类大全" >
+                        分类大全
+                    </a><span>|</span>
+                    <a href="" title="联想产品大全" >
+                        联想产品大全
+                    </a><span>|</span>
+                    <a href="" title="NBD" >
+                        NBD
+                    </a><span>|</span>
+                    <a href="" title="联想超融合" >
+                        联想超融合
+                    </a><span>|</span>
+    
+                    <a href="" title="商城移动版" >
+                        联想研究院
+                    </a><span>|</span>
+                    <a href="" title="智慧医疗" >
+                        智慧医疗
+                    </a>
+                
+                </div>
+                <div class="ns_footer_line">
+                    版权所有：1998-2019 联想集团<span>|</span>
+                    <a href="" title="法律公告" >
+                        法律公告
+                    </a><span>|</span>
+                    <a href="" title="隐私保护" >
+                        隐私保护
+                    </a><span>|</span>
+                    <a href="" >
+                        京ICP备11035381
+                    </a><span>|</span><i style="font-style:normal;">京公网安备110108007970号</i><span>|</span>
+                    <a href="" title="营业执照" >
+                        营业执照：110000410127232
+                    </a><span>|</span>
+                    <a href="" title=" 销售网点" >
+                        <em class="usepng icon_addr1"></em>销售网点
+                    </a><span>|</span>
+                    <a href="" title=" 服务网点" >
+                        <em class="usepng icon_addr2"></em>服务网点
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--页脚-->
+    </div>
+</body>
+
+<script src="./js/Carlist.js?v=48"></script>
+</html>

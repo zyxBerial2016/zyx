@@ -1,0 +1,121 @@
+.main_1{
+  width: 400px;
+  height: 400px;
+  background-color:#fff;
+  position: absolute;   
+  top: 50%;   
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main_2 .p1{
+      display: none;
+      height: 16px;
+      width: 240px;
+      margin-left: 0px;
+    }
+.main_2 .p2{
+      display: none;
+      height: 16px;
+      width: 240px;
+      margin-left: 0px;
+    }
+.main_2 p i{
+      display: block;
+      width: 16px;
+      height: 16px;
+      text-align: center;
+      line-height: 16px;
+      background: #ec0785;
+      color: #6b6ef8;
+      border-radius: 50%;
+      font-size: 16px;
+      float: left;
+      cursor: pointer;
+    }
+.main_2 p span{
+      font-size: 10px;
+      color: #ec0785;
+    }
+.main_2 p strong{
+      font-size: 10px;
+      color: #333;
+    }
+.main_2{
+  position: absolute;   
+  top: 50%;   
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ /* .main_2 .main_xx{
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  font-size: 45px;
+  line-height: 45px;
+  position: absolute;
+  top: -133px;
+  left: 380px;
+  border: #ccc 1px solid;
+  border-radius:50%; 
+}  */
+.main_2 h1{
+  display: block;
+  font-size: 32px;
+  color: black;
+  position: absolute;
+  top:-75px;
+  left: 70px;
+}
+.main_2 .zhanghao{
+  width: 330px;
+  height: 45px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  padding-left: 15px;
+}
+.main_2 .zhanghao:hover{
+  border: 1px solid black;
+}
+.main_2 .mima{
+  width: 330px;
+  height: 45px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  padding-left: 15px;
+}
+.main_2 .mima:hover{
+  border: 1px solid black;
+}
+.main_2 .self{
+  margin: 5px;
+}
+.main_2 .self span{
+  color: black;
+}
+.main_2 .denglu{
+  width: 330px;
+  height: 50px;
+  margin: 5px;
+  background: red;
+  border: none;
+  color: #fff;
+}
+.main_2 .denglu:hover{
+  opacity: 0.9;
+}
+.main_2 .yanzheng{
+  display: inline block;
+  color: red;
+  margin: 5px;
+}
+.main_2 .right{
+  float: right;
+  margin: 5px;
+}
+.errstyle {
+            color: red;
+        }
+        b{
+            color: red;
+            font-weight: bolder;
+        }

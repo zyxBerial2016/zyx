@@ -1,0 +1,315 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* top */
+.top_box {
+    min-width: 1200px;
+    height: 38px;
+    background: #000;
+}
+.top_cont {
+    width: 1200px;
+    height: 38px;
+    line-height: 38px;
+    color: #fff;
+    margin: 0 auto;
+}
+.top_login_r {
+    width: 78px;
+    position: relative;
+    float: right;
+    z-index: 9999;
+}
+    .top_cont .top_login {
+        float: right;
+        padding-top: 11px;
+        cursor: pointer;
+        float: right;
+    }
+    .top_login li {
+        float: left;
+        height: 14px;
+        line-height: 14px;
+        padding: 0 10px;
+        border-right: 1px solid #fff;
+        border-left: 1px solid #fff;
+    }
+    .top_box li {
+        list-style: none;
+        position: relative;
+        z-index: 111;
+        }
+    .top_login li a {
+        color: #fff;
+        font-size: 13px;
+    }
+    .top_cont .top_login {
+        float: right;
+        padding-top: 11px;
+        cursor: pointer;
+        float: right;
+    }
+    .top_login li a:hover{
+    color: red;
+    }
+    #Services-list {
+        background: #f5f5f5;
+        height: 83px;
+        /* padding: 30px 0px; */
+        border-top: 1px solid #ececec;
+    }
+    #Services-list .ns_w {
+        background: #f5f5f5;
+    }
+    .w1200, .ns_w {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    /* foot */
+    #foot_div, .top_box {
+        min-width: 1200px;
+    }
+    #footer {
+        background: #fff;
+        color: #000;
+        width: 1200px;
+        margin: 0 auto;
+    }
+    #footer .ns_p2 {
+        padding-top: 10px;
+        height: 130px;
+    }
+    #footer .ns_p2 .ns_w {
+        padding-bottom: 30px;
+    }
+    .w1200, .ns_w {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .ns_fixClear {
+        zoom: 1;
+    }
+        #footer .ns_p2 dl {
+            float: left;
+            padding: 0px 148px 0 0;
+            border-right: 0px solid #D9D8D6;
+            height: 122px;
+            position: relative;
+        }
+        #footer .ns_p2 dt {
+            line-height: 30px;
+            position: relative;
+        }
+        #footer .ns_p2 dt a {
+            font-size: 14px;
+            color: #000;
+        }
+        .ns_body fieldset, .ns_body html, body, .ns_body p, .ns_body ul, .ns_body ol, .ns_body li, .ns_body dl, .ns_body dt, .ns_body dd, .ns_body h1, .ns_body h2, .ns_body h3, .ns_body h4, .ns_body h5, .ns_body h6, .ns_body form, .ns_body input, .ns_body select, .ns_body button, .ns_body textarea, .ns_body iframe, .ns_body table, .ns_body th, .ns_body td, .ns_body em {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        #footer .ns_p2 dd a {
+            display: block;
+            line-height: 22px;
+            color: #555;
+            font-size: 12px;
+        }
+        #footer .ns_p2 dd a:hover{
+        color: #000;
+        }
+        #footer .ns_p2 dl {
+            float: left;
+            padding: 0px 148px 0 0;
+            border-right: 0px solid #D9D8D6;
+            height: 122px;
+            position: relative;
+        }
+    .ns_fixClear:after {
+        content: "";
+        display: block;
+        clear: both;
+        height: 0;
+        visibility: hidden;
+    }
+    #footer .ns_p2 dt {
+        line-height: 30px;
+        position: relative;
+    }
+        #footer .ns_p2 dt a {
+            font-size: 14px;
+            color: #000;
+        }
+
+        /* dibu */
+        .ns_box {
+            background: #f5f5f5;
+            padding-bottom: 20px;
+        }
+        .ns_p4 {
+            text-align: center;
+        }
+        .ns_p4 .ns_w {
+            padding-top: 25px;
+            position: relative;
+        }
+        .w1200, .ns_w {
+            width: 1200px;
+            margin: 0 auto;
+        }
+        .ns_p4 .ns_footer_line {
+            padding: 4px 0;
+            color: #6f7170;
+            font-size: 12px;
+        }
+        .ns_box a {
+            color: #6f7170;
+            font-size: 12px;
+        }
+        .ns_p4 .ns_footer_line span {
+            margin: 0 8px;
+            color: #6f7170;
+        }
+        .ns_box a:hover {
+            color: #000;
+            font-size: 12px;
+        }
+
+        /* 购物车样式------------------------ */
+.calist_top{
+    height: 60px;
+    margin-bottom: 20px;
+}
+    .calist_top .gwcimg{
+        float: left;
+    }
+    .calist_top .gwcjd{
+        float: right;
+    }
+
+
+#calist_main{
+    min-height: 400px;
+    height: auto;
+}
+    #calist_main .calist_table {
+        min-height: 246px;
+        margin-bottom: 10px;
+    }
+
+
+    #calist_main .calist_table table{
+        border: 1px solid #d9d8d6;
+        margin-bottom: 10px;
+    }
+    #calist_main .calist_table table th{
+        line-height: 36px;
+        font-size: 16px;
+        color: rgb(109, 104, 104);
+    }
+
+    #calist_main .calist_table .td_img{
+        display: block;
+        margin: 20px 0;
+    }
+    #calist_main .calist_table td{
+        color: rgb(109, 104, 104);
+        font-size: 16px;
+        text-align: center;
+    }
+    #calist_main .calist_table td a{
+        color: rgb(59, 54, 54);
+        font-size: 16px;
+    }
+
+    /* 购买联想服务 */
+    #calist_main .calist_table .fuwu{
+        color: rgb(238, 15, 15);
+    }
+    /* 总金额 */
+    #calist_main .calist_table .price_zje{
+        color: rgb(238, 15, 15);
+    }
+        #calist_main .calist_table .price_btn{
+            display: block;
+            margin-bottom: 8px;
+        }
+        /* 加减选项 ---------------------------------*/
+        .calist_table .but_box{
+            width: 100px;
+            height: 20px;
+        }
+        .calist_table .but_box .but_minus{
+            width: 20px;
+            height: 20px;
+            border:1px solid rgb(179, 174, 174);
+            float: left;
+            cursor: pointer;
+        }
+        .calist_table .but_box .price_value{
+            width: 56px;
+            height: 18px;
+            color: rgb(109, 104, 104);
+            float: left;
+            border-top:1px solid rgb(179, 174, 174);
+            border-bottom: 1px solid rgb(199, 194, 194);
+            text-align: center;
+            border-left: 0;
+            border-right: 0;
+        }
+        .calist_table .but_box .but_add{
+            width: 20px;
+            height: 20px;
+            border:1px solid rgb(179, 174, 174);
+            float: left;
+            cursor: pointer;
+        }
+
+
+
+
+    /* 结算行 */
+    .checkout{
+        width: 1172px;
+        height: 82px;
+        border: 1px solid #d9d8d6;
+        padding: 14px 14px;
+    }
+    .checkout .ct_all{
+        float: left;
+    }
+        .checkout .ct_all .ct_yes{
+            float: left;
+            font-size: 16px;
+            margin-right: 6px;
+        }
+        .checkout .ct_all .ct_yes .ct_link{
+            float: left;
+            display: block;
+            width: 14px;
+            height: 14px;
+            background: url(../images/img/gou.png) no-repeat;
+            margin-right: 6px;
+            margin-top: 4px;
+        }
+        .checkout .ct_all .ct_txt{
+            display: block;
+            float: left;
+            margin-left: 6px;
+            min-width: 30px;
+            font-size: 16px;
+            color: rgb(59, 54, 54);
+        }
+
+    .checkout .ct_price{
+        float: right;
+        font-size: 16px;
+        color: rgb(59, 54, 54);
+    }
+        .checkout .ct_price .ct_li{
+            margin-bottom: 4px;
+        }
+    

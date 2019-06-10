@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>商品信息</title>
+  <link rel="stylesheet" href="./css/ty-reset.css?v=5">
+  <link rel="stylesheet" href="./css/blurb1.css?v=6">
+  <script src="./js/PromiseAjax.js"></script>
+  <script src="./js/jquery.js"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="lenovo_logo">
+      <a href="" class="logo_link" title="lenovo">
+        
+      </a>
+      <img src="./images/img/logos.png" alt="" style="width: 164px;
+      height: 50px">
+    </div>
+    <!-- 滚动条滚动后隐藏菜单 -->
+    <div class="header_nav">
+      <div class="container">
+        <ul class="ul_nav">
+          <li class="ul_list"><a href="" class="li_link" title="" alt="">联想首页</a></li>
+          <li class="ul_list"><a href="" class="li_link" title="" alt="">商城</a></li>
+          <li class="ul_list"><a href="" class="li_link" title="" alt="">社区</a></li>
+          <li class="ul_list"><a href="" class="li_link" title="" alt="">服务</a></li>
+          <li class="ul_list"><a href="" class="li_link" title="" alt="">资讯</a></li>
+          <li class="ul_list"><a href="" class="li_link" title="" alt="">门店</a></li>
+          <li class="ul_list"><a href="" class="li_link" title="" alt="">手机版</a></li>
+        </ul>
+        
+      </div>
+    </div> 
+    <!-- 私人定制 -->
+    <div class="header_box" >
+      <div class="container">
+        <ul class="box_nav " >
+            <li class="li_list"><a href="" class="a_link" title="" alt="">私人定制</a></li>
+            <li class="li_list"><a href="" class="a_link" title="" alt="">极速到家</a></li>
+            <li class="li_list"><a href="" class="a_link" title="" alt="">合伙人</a></li>
+            <li class="li_list"><a href="" class="a_link" title="" alt="">以旧换新</a></li>
+            <li class="li_list"><a href="" class="a_link" title="" alt="">0元试用</a></li>
+            <li class="li_list"><a href="" class="a_link" title="" alt="">企业采购</a></li>
+            <li class="li_list"><a href="" class="a_link" title="" alt="">兑换中心</a></li>
+            <li class="li_list"><a href="" class="a_link" title="" alt="">众筹</a></li>
+        </ul>
+        <div class="forms">
+          <input type="text" class="txt" placeholder="联想 Z6 Pro 骁龙855 硬核">
+          <input type="submit" value=" " class="sub">
+          <i class="icon-sousuo iconfont searchs"></i>
+        </div>
+        <!-- 注册登陆 -->
+        <div class="blurb_login">
+            <div class="b_login_box">
+              <div class="login_a">
+                <a href="">注册</a>
+                <i class="list"></i>
+                <a href="">登陆</a>
+              </div>
+              <i class="icon-shouji iconfont login_sj"></i>
+            </div>
+        </div>
+      </div>
+    </div> 
+    <!-- 监控滚动条 -->
+    <div class="header_boxs header_min" style="display :none" >
+      <div id="header_box">
+        <div class="container">
+          <ul class="box_nav ">
+              <li class="li_list"><a href="" class="a_link" title="" alt="">私人定制</a></li>
+              <li class="li_list"><a href="" class="a_link" title="" alt="">极速到家</a></li>
+              <li class="li_list"><a href="" class="a_link" title="" alt="">合伙人</a></li>
+              <li class="li_list"><a href="" class="a_link" title="" alt="">以旧换新</a></li>
+              <li class="li_list"><a href="" class="a_link" title="" alt="">0元试用</a></li>
+              <li class="li_list"><a href="" class="a_link" title="" alt="">企业采购</a></li>
+              <li class="li_list"><a href="" class="a_link" title="" alt="">兑换中心</a></li>
+              <li class="li_list"><a href="" class="a_link" title="" alt="">众筹</a></li>
+          </ul>
+          <div class="forms" id="search">
+            <i class="icon-sousuo iconfont searchs"></i>
+          </div>
+          <!-- 注册登陆 -->
+          <div class="blurb_login">
+              <div class="b_login_box">
+                <div class="login_a">
+                  <a href="">注册</a>
+                  <i class="list"></i>
+                  <a href="">登陆</a>
+                </div>
+                <i class="icon-shouji iconfont login_sj"></i>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!-- 隐藏之后出现搜索框 -->
+      <div id="header_boxs" class="h_boxs">
+        <i class="icon-sousuo iconfont searchss"></i>
+        <input type="text" class="txts" placeholder="产品怎么老是整这些花里胡哨的东西">
+        <i class="searchss" id="searchs">X</i>
+      </div>
+    </div>
+  </div>
+  <div id="main">
+    <div class="container">
+      <div class="m_demo">
+        <div class="demo_img">
+          <img src="" alt="" id="img_max">
+        </div>
+        <div class="demo_list">
+          <a href="" class="prev">&lt;</a>
+          <a href="" class="next">&gt;</a>
+          <ul class="demo_ul">
+            <li class="demo_li_list "><a href="javascript:;"><img src="" alt="" class="img-wrap"></a></li>
+            <li class="demo_li_list "><a href="javascript:;"><img src="" alt="" class="img-wrap"></a></li>
+            <li class="demo_li_list "><a href="javascript:;"><img src="" alt="" class="img-wrap"></a></li>
+            <li class="demo_li_list "><a href="javascript:;"><img src="" alt="" class="img-wrap"></a></li>
+            <li class="demo_li_list "><a href="javascript:;"><img src="" alt="" class="img-wrap"></a></li>
+          </ul>
+        </div>
+        <div class="demo_bottom">
+          <span class="">商品编号：<span>PAEF000CN</span>
+          </span>
+          <p></p>
+        </div>
+      </div>
+      <div class="m_details">
+        <!-- 顶部标题 -->
+        <div class="into">
+          <h1 class="title titles">1</h1>
+          <h3 class="subtitle subtitles">2</h3>
+        </div>
+        <!-- 促销信息 -->
+        <div class="into_cx">
+            <h2 class="ia_title">促销信息</h2>
+            <div class="ia_cont">
+              <span class="cont_title">闪购</span>
+              <span class="des">4</span>
+              <span class="djs">5</span>
+            </div>
+            <div class="box sales_con">
+
+            </div>
+        </div>
+        <!-- 赠品 -->
+        <div class="into_zp">
+          <h2 class="ib_title">搭配赠品<span class="ib_tic">赠光即止</span></h2>
+          <div class="zp_box">
+            <img src="" alt="" class="item_zp_img zp_img">
+            <a href="javascript:;" class="iz_link"></a>
+            <a href="javascript:;" class="item_zp_text zp_txt"></a>
+          </div>
+        </div>
+        <!-- 颜色选择 -->
+        <div class="into_color">
+          <h2 class="ic_title">手机颜色</h2>
+          <span class="item_color color_but"  id="item_colora" >1</span >
+          <span  class="item_color color_but" id="item_colorb">2</span>
+        </div>
+        <!-- 手机内存 -->
+        <div class="into_nc">
+          <h2 class="ic_title">手机内存</h2>
+          <span class="spec_me nc_box">6</span>
+          <span class="spec_me nc_box">8</span>
+          <span class="spec_me nc_box">12</span>
+          <span class="spec_me nc_box">14</span>
+        </div>
+        <!-- 推荐选件选择a -->
+        <div class="into_js" id="into_jss">
+            <h2 class="ib_title">推荐选件<span class="ib_tic">可以多选</span></h2>
+          <div class="item_js js_box" id="item_jsa" >
+              <img src="" alt="" class="item_big_imgb ij_img">
+              <span class="text_normal"></span>&nbsp;
+              <span class="tjxj_price" style="color:red"></span>&nbsp;
+              <span class="tjxj_price_js"></span>
+          </div>
+          <!-- 推荐选件选择b -->
+          <div class="item_js js_box" id="item_jsb" >
+            <img src="" alt="" class="item_big_imgb ij_img">
+            <span class="text_normal"></span>&nbsp;
+            <span class="tjxj_price" style="color:red"></span>&nbsp;
+            <span class="tjxj_price_js"></span>
+          </div>
+        </div>
+        <!-- 推荐服务/保险选项a -->
+        <div id="bsxxx" class="into_bx">
+            <h2 class="ib_title">推荐服务<span class="ib_tic">可以多选</span></h2>
+            <div class="bx_box">
+              <span class="guanfang">官</span>
+              <p class="service_name"></p>
+              <p class="service_price"></p>
+            </div>
+            <!-- 保险选项b -->
+            <div class="bx_box">
+              <span class="guanfang">官</span>
+              <p class="service_name"></p>
+              <p class="service_price"></p>
+            </div>
+            <!-- 保险选项c -->
+            <div class="bx_box">
+              <span class="guanfang">官</span>
+              <p class="service_name"></p>
+              <p class="service_price"></p>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 网页定位结算行 -->
+  <div class="tally" id="footer">
+    <div class="footer">
+      <div class="container ">
+        <!-- 二维码和联系方式 -->
+        <div class="hl_item">
+          <div class="eq"></div>
+          <div class="h_touch"></div>
+          <img src="./images/img/eqss.png" alt="">
+        </div>
+        
+        <div class="hr_item">
+          <!-- 加减按钮 -->
+          <div class="h_sl">
+            <input type="button" value="-" id="price_minus" class="p_btn">
+              <span id="price_data" class="price_datas">1</span>
+            <input type="button" value="+" id="price_add" class=" p_btn">
+          </div>
+          <!-- 价格 -->
+          <div class="h_price">
+            <span class="h_price_txt">商城价:</span>
+            <i id="price" class="h_price_txts">9999</i>
+            <div class="price_s">
+              
+                <button class="price_btn" id="blurb_carlist" >加入购物车
+                  
+                </button>
+          
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  
+</body>
+  <script src="./js/blurb.js?v=41"></script>
+  <script src="./js/car.js?v=1"></script>
+</html>
